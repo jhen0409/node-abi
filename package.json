@@ -25,5 +25,8 @@
   "homepage": "https://github.com/lgeiger/node-abi#readme",
   "devDependencies": {
     "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "semver": "^5.3.0"
   }
 }
