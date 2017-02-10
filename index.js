@@ -41,7 +41,6 @@ function getTarget (abi, runtime) {
   throw new Error('Could not detect target for abi ' + abi + ' and runtime ' + runtime)
 }
 
-
 var supportedTargets = [
   {runtime: 'node', target: '0.10.48', abi: '11', lts: false},
   {runtime: 'node', target: '0.12.17', abi: '14', lts: false},
